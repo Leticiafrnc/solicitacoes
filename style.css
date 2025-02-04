@@ -1,0 +1,58 @@
+
+* {
+    font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+    
+}
+
+body {
+  
+    background:#000;
+}
+
+
+.container {
+    background-image: url('./images/megaphone2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+textarea{
+    display: block;
+    width: 100%;
+    padding-bottom: 70px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.btn-enviar input{
+    width: 140px;
+    height: 50px;
+    border: 0;
+    background-color: #01DAFE;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+}
+h1,h2{
+    color: #fff;
+}
+label{
+    color: #fff;
+}
